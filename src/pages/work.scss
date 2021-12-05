@@ -1,0 +1,46 @@
+$font-Dm-Sans: "DM Sans", sans-serif;
+.work {
+  &__label {
+    font-family: $font-Dm-Sans;
+    font-size: 36px;
+  }
+  &__title{
+    font-family: $font-Dm-Sans;
+    font-weight: bold;
+  }
+  &__legend{
+    font-family: $font-Dm-Sans;
+    font-weight: 400;
+    color: #606060;
+  }
+  &__learn_more{
+    font-family: $font-Dm-Sans;
+    text-decoration: underline;
+    color: #000000  ;
+  }
+  &__logo {
+    width: 100%;
+  }
+  &__about{
+    margin-right: 10px;
+  }
+  &__profile{
+    margin-left:2%;
+  }
+}
+@media (min-width:1000px){
+  .work{
+    &__logo {
+      width: 50%;
+    }
+    &__profile{
+      margin-left: 15%;
+    }
+    &__divider{
+    margin-left: 15%;
+    width:53%;
+    height: 2px;
+    color: #000000;
+    }
+  }
+}

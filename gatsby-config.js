@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix:"/Portifolio",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "Portifolio",
